@@ -9,17 +9,24 @@
 <body>
 	<script>
 		var vienna = [
-		["Vienna",  " ",  " ", " ", " "],
+		["Vienna",  0,  0, 0],
 		[0,  "is",  0, 0,  0],
 		[0,  0,  "a", 0,  0],
 		[0,  0,  0, "nice",  0],
 		[0,  0,  0, 0,  "city"]
 		];
-		document.write(vienna);
-		document.write("<br>")
 
-		
+		console.log(vienna[0][0] + " \n \t " + vienna[1][1]  + " \n \t \t" +
+			vienna[2][2] + " \n \t \t \t "  + vienna[3][3] + " \n \t \t \t \t  "  + vienna[4][4] );
+
+		 var sentence = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component\'$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism\'s$promise$is$expressed$as$\"properties $flow$down;$actions$flow$up\"";
+
+		 sentence.split("$").join(" ");
+		 console.log(sentence.split("$").join());
+
 
 	</script>
 </body>
 </html>
+
+‚
